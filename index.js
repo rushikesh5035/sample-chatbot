@@ -39,5 +39,5 @@ app.post("/chat", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`🤖 Gemini chatbot running at http://localhost:${port}`);
+  console.log(`Server started at port: ${port}`);
 });
